@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+body {
+	background: #000;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+img{
+	width: 100%;
+	max-width: 100%;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+.vm-photo {
+	width: 396px;
+	height: 702px;
+	position: relative;
+}
+
+.vm-photo + div {
+	display: none!important;
+	opacity: 0!important;
+	visibility: hidden!important;
+}
+
+.vm-photo img {
+	width: 396px;
+	height: 702px;
+}
+
+.btn-drink, .btn-close, .btn-payment {
+	position: absolute;
+	display: inline-block;
+	z-index: 1;
+	/* background: #fff; */
+	/* opacity: .2; */
+}
+
+.bottle-red {
+	width: 235px;
+	height: 205px;
+	top: 0;
+	left: 0;
+}
+
+.bottle-green {
+	width: 80px;
+	height: 205px;
+	top: 205px;
+	left: 0;
+}
+
+.bottle-lime {
+	width: 80px;
+	height: 140px;
+	top: 270px;
+	left: 80px;
+}
+
+.bottle-brown {
+	width: 70px;
+	height: 160px;
+	top: 250px;
+	left: 240px;
+}
+
+.btn-close {
+	width: 30px;
+	height: 30px;
+	top: 107px;
+	right: 42px;
+}
+
+.btn-close.receipt {
+	top: 114px;
+	right: 104px;
+}
+
+.btn-payment {
+	width: 108px;
+	height: 25px;
+	right: 56px;
+}
+
+.btn-payment.cash {
+	top: 238px;
+}
+
+.btn-payment.credit {
+	top: 267px;
+}
+
+.btn-payment.gift {
+	top: 295px;
+}
